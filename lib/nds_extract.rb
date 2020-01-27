@@ -14,7 +14,7 @@ def directors_totals(nds)
     total += nds[counter][:movies][inner_index][:worldwide_gross]
     inner_index += 1
   end
-  newhash[director_name] = total
+  new_hash[director_name] = total
   counter += 1 
 end
 end
