@@ -17,4 +17,5 @@ def directors_totals(nds)
   new_hash[director_name] = total
   counter += 1 
 end
+new_hash
 end
